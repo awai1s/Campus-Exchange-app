@@ -1,0 +1,39 @@
+{
+  "name": "uni-market",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.4.21",
+    "clsx": "^2.1.1",
+    "framer-motion": "^12.23.12",
+    "lodash": "^4.17.21",
+    "lodash.debounce": "^4.0.8",
+    "lucide-react": "^0.540.0",
+    "next": "^15.4.6",
+    "next-pwa": "^5.6.0",
+    "postcss": "^8.5.6",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "react-hook-form": "^7.62.0",
+    "tailwind-merge": "^3.3.1"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4",
+    "@types/react": "19.1.11",
+    "@types/react-dom": "19.1.5",
+    "@types/node": "^20.17.6",
+    "eslint": "^9",
+    "eslint-config-next": "15.4.6",
+    "msw": "^2.10.4",
+    "tailwindcss": "^4.1.11",
+    "typescript": "5.4.5"
+  }
+}
